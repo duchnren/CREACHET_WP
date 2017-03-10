@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" href="/static/img/logo.ico">
+    <title>Créachet</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/mycss.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Kalam:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div id="menu" class="container">
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div id="gallery_menu" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                <div class="box" id="heidi-peter">
+                    <div class="row">
+                        <h3 class="nadpis">
+                            Heidi a Peter
+                        </h3>
+                        <div class="wrapper">
+                            <div class="masonry" id="heidi">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="zpet">
+                            <p><a href="#">Nahoru</a> | <a href="gallery.html">Zpět</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" id="diplomat">
+                    <div class="row">
+                        <h3 class="nadpis">
+                            Diplomati
+                        </h3>
+                        <div class="wrapper">
+                            <div class="masonry" id="diplomat-g">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="zpet">
+                            <p><a href="#">Nahoru</a> | <a href="gallery.html">Zpět</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" id="dudak">
+                    <div class="row">
+                        <h3 class="nadpis">
+                            Dudáci
+                        </h3>
+                        <div class="wrapper">
+                            <div class="masonry" id="dudak-g">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="zpet">
+                            <p><a href="#">Nahoru</a> | <a href="gallery.html">Zpět</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" id="frederic">
+                    <div class="row">
+                        <h3 class="nadpis">
+                            Frederic
+                        </h3>
+                        <div class="wrapper">
+                            <div class="masonry" id="frederic-g">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="zpet">
+                            <p><a href="#">Nahoru</a> | <a href="gallery.html">Zpět</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" id="jednoduche">
+                    <div class="row">
+                        <h3 class="nadpis">
+                            Jednoduché panenky
+                        </h3>
+                        <div class="wrapper">
+                            <div class="masonry" id="jednoduche-g">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="zpet">
+                            <p><a href="#">Nahoru</a> | <a href="gallery.html">Zpět</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" id="ostatni-pan">
+                    <div class="row">
+                        <h3 class="nadpis">
+                            Další panenky
+                        </h3>
+                        <div class="wrapper">
+                            <div class="masonry" id="ostatni-pan-g">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="zpet">
+                            <p><a href="#">Nahoru</a> | <a href="gallery.html">Zpět</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- /.row -->
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="footer">Copyright &copy; Créachet</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Load menu -->
+    <script>
+    $(function() {
+        $('#menu').load('navbar.html');
+    })
+    </script>
+
+    <script>
+    $(function() {
+        $('#gallery_menu').load('gallery_menu.html');
+    })
+    </script>
+
+    <!-- Own scripts -->
+    <script src="js/listImg.js"></script>
+    <script src="js/myscript.js"></script>
+
+    <!-- Masonry -->
+    <script src="js/mp.mansory.js"></script>
+    <script src="js/mymansory.js"></script>
+
+
+
+</body>
+
+</html>
